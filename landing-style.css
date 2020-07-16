@@ -1,0 +1,18 @@
+body {
+    height:90vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    font-size: 105px;
+}
+.header {
+    vertical-align: center;
+}
+.nav-button {
+    font-size: 56px;
+}
+.nav-line {
+    width:135px;
+}

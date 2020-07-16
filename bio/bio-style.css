@@ -1,0 +1,10 @@
+#grad-sign {
+    float: left;
+    padding-right: 20px;
+    height: auto;
+    max-width: 400px;
+}
+.content {
+    margin: auto;
+    width: 50%;
+}

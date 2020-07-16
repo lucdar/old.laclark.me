@@ -1,0 +1,25 @@
+body {
+    font-size: 22px;
+}
+table {
+    padding-top: 22px;
+    width: 70%;
+    margin: auto;
+}
+td {
+    vertical-align: top;
+    padding-bottom: 10px;
+}
+iframe {
+    border: 0px;
+}
+.music-header{
+    font-weight: bold;
+    font-size: 40px;
+}
+.music-video {
+    padding-right: 15px;
+}
+.music-content {
+    padding-bottom: 0px;
+}
