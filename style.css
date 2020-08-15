@@ -1,4 +1,4 @@
-:root {
+  :root {
     --background-color: rgb(255, 255, 250);
 }
 body {
@@ -35,4 +35,10 @@ body {
 .nav-line {
     width:95px;
     display: inline-block;
+}
+
+@media (max-width: 600px) {
+  hr.nav-line {
+      display: block !important;
+  }
 }
