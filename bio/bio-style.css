@@ -8,3 +8,18 @@
     margin: auto;
     max-width: 775px;
 }
+
+@media (max-width: 780px) {
+    #head-shot {
+        float: none;
+        margin: auto;
+        padding: none;
+        margin-bottom: 1em;
+        display: block;
+        max-width: 75%;
+    }
+    .content {
+        text-align: justify;
+        max-width: 75%;
+    }
+}
