@@ -1,25 +1,40 @@
-body {
-    font-size: 22px;
-}
-table {
+.music-piece {
+    font-size: 14pt;
     padding-top: 22px;
-    width: 70%;
+    width: 1050px;
     margin: auto;
 }
-td {
-    vertical-align: top;
-    padding-bottom: 10px;
+
+.music-title {
+    font-size: 22pt;
 }
-iframe {
+
+.music-video > iframe {
+    float: right;
+    width: 100%;
+    display: block;
     border: 0px;
 }
-.music-header{
-    font-weight: bold;
-    font-size: 40px;
+  
+.music-piece > div {
+    height: 300px;
+    padding-left: 1em;
+    float: left;
+    width: 45%;
+    display: block;
 }
-.music-video {
-    padding-right: 15px;
-}
-.music-content {
-    padding-bottom: 0px;
+  
+@media (max-width: 1100px) {
+    .music-piece {
+        width: 600px;
+        height: 525px;
+        margin: auto;
+    }
+    .music-piece > div {
+        float: none;
+        width: 100%;
+    }
+    .music-video {
+        margin: auto;
+    }
 }
