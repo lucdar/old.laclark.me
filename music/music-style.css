@@ -19,6 +19,7 @@
 .music-piece > div {
     height: 300px;
     padding-left: 1em;
+    margin-top: 1em;
     float: left;
     width: 45%;
     display: block;
