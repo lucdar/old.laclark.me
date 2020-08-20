@@ -9,26 +9,33 @@
     font-size: 22pt;
 }
 
+.music-video {
+    margin-left: 2em;
+}
+
 .music-video > iframe {
-    float: right;
     width: 100%;
+    float: right;
     display: block;
     border: 0px;
 }
-  
+
 .music-piece > div {
-    height: 300px;
-    padding-left: 1em;
-    margin-top: 1em;
+    padding-bottom: 1em;
     float: left;
+    height: 300px;
     width: 45%;
     display: block;
+}
+
+.music-content > div {
+    padding-left: 1em;
 }
   
 @media (max-width: 1100px) {
     .music-piece {
-        width: 600px;
-        height: 525px;
+        width: 100%;
+        height: auto;
         margin: auto;
     }
     .music-piece > div {
@@ -36,6 +43,7 @@
         width: 100%;
     }
     .music-video {
+        width: 512px;
         margin: auto;
     }
 }
