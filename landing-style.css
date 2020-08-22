@@ -12,6 +12,8 @@ body {
 }
 .nav-button {
     font-size: 56px;
+    padding-left: 17px;
+    padding-right: 17px;
 }
 .nav-line {
     width:135px;
